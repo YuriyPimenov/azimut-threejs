@@ -1,0 +1,21 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Pimenov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consolidate": "^0.15.1",
+    "express": "^4.16.3",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

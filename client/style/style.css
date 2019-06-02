@@ -1,0 +1,48 @@
+body{
+    margin:0px;
+    overflow:hidden;
+}
+#canvas{
+    background:#000000;
+    vertical-align:top;
+}
+
+#stat{
+    position:absolute;
+}
+
+#loading{
+    position:absolute;
+    display:block;
+    top:50%;
+    width:100%;
+    text-align:center;
+    font-family:arial;
+    font-size:20px;
+    color:#ffff00;
+}
+
+#begin{
+    cursor:pointer;
+    position:absolute;
+    display:none;
+    top:50%;
+    width:100%;
+    text-align:center;
+    font-family:arial;
+    font-size:20px;
+    color:#ffff00;
+}
+
+#hud{
+    display:none;
+}
+#hud>div{
+    position:absolute;
+    left:20px;
+    bottom:20px;
+    font-family:arial;
+    font-size:30px;
+    color:#ffff00;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Азимут</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+</head>
+
+<body>
+	<div id='container'></div>
+	<script src='libs/three.js'></script>
+	<script src="libs/PointerLockControls.js"></script>
+	<script src="libs/loaders/GLTFLoader.js"></script>
+
+	<!--<div id="blocker">
+
+		<div id="instructions">
+			<strong>Loading...</strong>
+		</div>
+	</div>-->
+
+	
+    
+	<script src="script/mainModules/Game.js"></script>
+	<script src="script/mainModules/Preloader.js"></script>
+    <script>
+		document.addEventListener("DOMContentLoaded", function(){
+			var game = new Game('container');
+			//game.init();
+			window.game = game;//For debugging only
+		});
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>azimut</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="game">
+        
+        <div id="hud">
+            <div>+<span id="health">100</span></div>
+        </div>
+        <div id="stat"></div>
+        <div id="loading">Загрузка <span id="loading_amount"></span></div>
+        <div id="begin">Старт</div>
+        <canvas id="canvas" width="800" height="600"></canvas>
+    </div>
+
+    <audio id="go" preload>
+        <source src="audio/go.mp3" type="audio/mpeg">
+    </audio>
+        
+        
+    <script type="text/javascript" src="libs/three.js"></script>
+    <script type="text/javascript" src="libs/stats.min.js"></script>
+    <script type="text/javascript" src="libs/FirstPersonControls.js"></script>
+    <script type="text/javascript" src="libs/MTLLoader.js"></script>
+    <script type="text/javascript" src="libs/OBJLoader.js"></script>
+
+    <script src="script/index.js"></script>
+</body>
+</html>
